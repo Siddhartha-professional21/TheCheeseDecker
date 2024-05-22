@@ -1,0 +1,58 @@
+body 
+{
+    background-color: rgb(6, 6, 66);
+    color: white; 
+}
+
+.portionA 
+{
+    position: absolute;
+    top: 40%; 
+    left: 20%; 
+    transform: translateY(-50%); 
+    font-family: 'Jacquard 12', serif;
+    font-size: 45px; 
+}
+
+.portionB 
+{
+    position: absolute;
+    top: 51%; 
+    left: 20%; 
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+}
+
+.orderButton 
+{
+    position: absolute;
+    top: 60%; 
+    left: 20%;
+    padding: 10px 20px;
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid white; 
+    border-radius: 5px; 
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.orderButton:hover 
+{
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.image-container 
+{
+    position: absolute;
+    top: 48%;
+    right: 20%; 
+    transform: translateY(-50%);
+}
+
+.image-container img 
+{
+    width: 400px; 
+    height: auto; 
+    border-radius: 15%;
+}
